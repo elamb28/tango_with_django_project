@@ -1,0 +1,43 @@
+{% load static %}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>About Rango</title>
+</head>
+
+<body>
+    <h1>Rango says...</h1>
+    <div>
+        here is the about page.
+    </div>
+
+    <hr>
+
+    <div>
+        This tutorial has been put together by Ethan Lamb.
+    </div>
+
+    <hr>
+
+    <div>
+        <img src="{% static 'images/rango.jpg' %}" 
+             alt="Picture of Rango" />
+    </div>
+
+    <br>
+
+    <div>
+        <img src="/media/cat.jpg" 
+             alt="Picture of a Cat" />
+    </div>
+
+    <br>
+
+    <div>
+        <a href="/rango/">Return to the homepage</a>
+    </div>
+
+</body>
+</html>
